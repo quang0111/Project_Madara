@@ -170,15 +170,15 @@
     .header__menu {
       @include animationDropdown();
       order: 1;
-      flex: 1 0 100%;
+      flex: 1 0 80%;
       margin-left: 2rem;
       margin-top: 1rem;
       .header__menu-list {
         @include flex(column, center, flex-start);
         .header__menu-item {
           .dropdown {
-            @include absolute($top: 120%, $left: -5%);
-            width: 50rem;
+            @include absolute($top: 100%, $left: -5%);
+            width: 40rem;
             .arrow-up {
               border-left: 10px solid transparent;
               border-right: 10px solid transparent;
